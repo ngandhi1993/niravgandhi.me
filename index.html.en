@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link href="css/override.css" rel="stylesheet">
+</head>
+<title>Nirav Gandhi</title>
+<body>
+<ul class="nav nav-pills">
+<li role="presentation" class="active"><a href="#">About</a></li>
+<li role="presentation"><a href="#">Interests</a></li>
+<li role="presentation"><a href="#">Projects</a></li>
+<li role="presentation"><a href="#">Blog</a></li>
+</ul>
+<h1>
+Hey there, this is Nirav!
+</h1>
+<div id="socialLinks">
+<a href="https://www.facebook.com/nirav.gandhi.7" target="_blank"><img class="socialIcon" src="img/facebook.png">
+<a href="https://sg.linkedin.com/in/niravg" target="_blank"><img class="socialIcon" src="img/linkedin.png">
+<a href="https://twitter.com/ngandhi93" target="_blank"><img class="socialIcon" src="img/twitter.png">
+<a href="https://github.com/ngandhi1993" target="_blank"><img class="socialIcon" src="img/github.png"></a>
+<br>
+<br>
+<br>
+</div>
+<p>
+Currently a senior in Computer Engineering at the National University of Singapore (NUS), I am passionate about software development and soccer.
+I have previously interned at Samsung (South Korea), Institute for Infocomm Research (I2R, Singapore) and Red Dot Payment (Singapore).
+</p>
+<p>
+I am always on the look out to collaborate to new projects. Ping me if you have one in mind.<br>
+</p>
+<p>
+Peace.
+</p>
+</body>
+</html>
+
