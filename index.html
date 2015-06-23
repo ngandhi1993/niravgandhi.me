@@ -1,33 +1,289 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link href="css/override.css" rel="stylesheet">
-</head>
-<title>Nirav Gandhi</title>
-<body>
-<ul class="nav nav-pills">
-<li role="presentation" class="active"><a href="#">About</a></li>
-<li role="presentation"><a href="interests.html">Interests</a></li>
-<li role="presentation"><a href="projects.html">Projects</a></li>
-<li role="presentation"><a href="blog/home.html">Blog</a></li>
-</ul>
-<br>
-<p>
-<br>
-Hey there, this is Nirav!<br>
-<br>
-Currently a senior in Computer Engineering at the National University of Singapore (NUS), I am passionate about software development and soccer.
-I have previously interned at Samsung (South Korea), Institute for Infocomm Research (I2R, Singapore) and Red Dot Payment (Singapore).<br><br>
-I am always on the look out to collaborate to new projects. <a href="mailto:nirav.gandhi@nus.edu.sg?Subject=Let's collaborate" target="_top">Ping</a> me if you have one in mind.<br><br>
-</p>
-<div id="socialLinks">
-<center><a href="https://www.facebook.com/nirav.gandhi.7" target="_blank"><img class="socialIcon" style="z-index: 1" src="img/facebook.png"></a>
-<a href="https://sg.linkedin.com/in/niravg" target="_blank"><img class="socialIcon" style="z-index: 2" src="img/linkedin.png"></a>
-<a href="https://twitter.com/ngandhi93" target="_blank"><img class="socialIcon" style="z-index: 3" src="img/twitter.png"></a>
-<a href="https://github.com/ngandhi1993" target="_blank"><img class="socialIcon" style="z-index: 4" src="img/github.png"></a></center>
-</div>
-<img class="pic" src = "img/nirav.jpg">
-</body>
-</html>
+<html lang="en">
 
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Nirav Gandhi</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Nirav Gandhi</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            <li>
+                <a href="#schooling" onclick = $("#menu-close").click(); >Education</a>
+            </li>
+            <li>
+                <a href="#workex" onclick = $("#menu-close").click(); >Work Experience</a>
+            </li>
+            <!--<li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li> -->
+        </ul>
+    </nav>
+    <div class="bgImage">
+    </div>
+    <div class="header">
+        <center><img class="pic" src = "img/nirav.jpg" border="5"><br>
+        <a href="https://www.facebook.com/nirav.gandhi.7" target="_blank"><img class="socialIcon" src="img/facebook.png"></a>
+        <a href="https://sg.linkedin.com/in/niravg" target="_blank"><img class="socialIcon" src="img/linkedin.png"></a>
+        <a href="https://twitter.com/ngandhi93" target="_blank"><img class="socialIcon" src="img/twitter.png"></a>
+        <a href="https://github.com/ngandhi1993" target="_blank"><img class="socialIcon" src="img/github.png"></a><br>
+        Hey there, this is Nirav!</center>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="lead">I have recently graduated with a <b>Bachelors in Computer Engineering</b> from the <a href="http://nus.edu.sg/" target="_blank"> National University of Singapore (NUS)</a>. <!--Currently working as a Software Engineer at <a href="http://www.nextlabs.com/html/">NextLabs</a> in Singapore,  I am passionate about developing Software and Android Apps. --> I am always on the look out to collaborate to Software projects. <a href="mailto:nirav.gandhi@nus.edu.sg?Subject=Let's collaborate" target="_top">Ping</a> me if you have one in mind.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="schooling" class="services bg-utown">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Education</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-university fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>National University of Singapore (NUS)</strong>
+                                </h4>
+                                <p>Graduated with a Bachelor's degree in Computer Engineering from the National University of Singapore (NUS). A difficult yet fulfilling experience.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-exchange fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>University of Wisconsin - Madison</strong>
+                                </h4>
+                                <p>Went for the Student Exchange Program (SEP) for a semester here. Good school, good food and good people.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-book fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Indian School Al Wadi Al Kabir (ISWK)</strong>
+                                </h4>
+                                <p>Did my high school from here. Have mixed memories of this place.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-child fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Sachdeva Public School</strong>
+                                </h4>
+                                <br>
+                                <p>Born and brought up in New Delhi, I completed my primary and secondary school here. An unforgetful experience, one that makes me want to go back there again.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <!-- Work Experience -->
+    <div id="workex" class="workex">
+        <div class="text-vertical-center">
+            <h2>Work Experience</h2>
+            <hr class="small">
+            <div class="col-lg-10 col-lg-offset-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <img class= "logo" src="img/samsung-logo.jpg" />
+                                <h4>
+                                    <strong>Samsung, South Korea</strong>
+                                </h4>
+                                <h5>June 2014 - August 2014</h5>
+                                <p>Interned at the Mobile Web Platform Group at Samsung. Under the guidance of Principal Software Engineers, I helped decrease the amount of memory taken by Samsung's browser on low-end devices like Samsung Gear. Among other things, met some great people.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <img class= "logo" src="img/i2r-logo.png" />
+                                <h4>
+                                    <strong>Institute for Infocomm Research, Singapore</strong>
+                                </h4>
+                                <h5>May 2013 - August 2013</h5>
+                                <p>Interned at the Sense-and-Sense abilities team in I2R. Built an Android App that helped scientists debug their wireless sensor network and helped them to gain more information about the wireless sensor nodes.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <img class= "logo" src="img/reddot-logo.jpg"/>
+                                <h4>
+                                    <strong>Red Dot Payment, Singapore</strong>
+                                </h4>
+                                <h5>December 2012 - January 2013</h5>
+                                <p>Red Dot Payment is a startup providing services to authorize card payment transactions made online. Here, I built a web application that helped collate all the relevant business news and one that sent it out via email to all the investors and employees of the company.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+            </div>
+                <!-- /.col-lg-10 -->
+        </div>
+    </div>
+    <!--
+    <!-- My Projects
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Projects I have built or contributed to</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 
+            </div>
+            <!-- /.row 
+        </div>
+        <!-- /.container 
+    </section>
+    -->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h4><strong>Nirav Gandhi</strong></h4>
+                <p class="text-muted">Copyright &copy; Nirav Gandhi 2015</p>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+    $(window).scroll(function() {
+        var imgBlur = 10 - Math.floor($(this).scrollTop() / 20);
+        console.log(imgBlur);
+        console.log("ScrollTop" + $(this).scrollTop())
+        if (imgBlur < 0){
+            imgBlur = 0; 
+        }
+        $('.bgImage').css({'-webkit-filter': 'blur('+imgBlur+'px)'});  
+    });
+    </script>
+
+</body>
+
+</html>
